@@ -1,0 +1,64 @@
+.tabla-contenedor{
+    max-width: 800px;
+    margin: 1.5rem auto;
+    overflow-x: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: system-ui, sans-serif;
+    font-size: 0.95rem;
+}
+
+.tabla th,
+.tabla td{
+    padding: 0.75rem 1rem;
+    text-align: left;
+} 
+
+.tabla thead th {
+    background: #1e293b;
+    color: #fff;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.tabla tbody tr:nth-child(even){
+    background: #122a42;
+}
+
+.tabla tbody tr:hover{
+    background: #e0f2fe;
+    color: black;
+}
+
+.tabla tbody td {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tabla tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tabla td:first-child{
+    font-size: 1.5rem;
+}
+
+select,
+input {
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.5rem 1rem 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+select:focus,
+input:focus {
+  outline: 2px solid #38bdf8;
+  border-color: transparent;
+}
